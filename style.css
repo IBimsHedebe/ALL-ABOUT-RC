@@ -17,6 +17,12 @@ body{
     background-color: #adadad;
 }
 
+table, th, td {
+    padding: 5px;
+    border: 2px solid var(--text-color);
+    border-collapse: collapse;
+}
+
 .card{
     background: var(--white);
     padding: 30px;
