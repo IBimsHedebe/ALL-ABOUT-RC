@@ -27,8 +27,10 @@
 }
 
 #Presentation-Slide {background-color: #2c3e50;}
-#Organizing-Slide {background-color: #e67e22;}
+#Content-Slide {background-color: #e67e22;}
 #Credits-and-Quells-Slide {background-color: #27ae60;}
+
+#slide {background-color: #34495e;}
 
 h1 {
     font-size: 3rem;
@@ -43,7 +45,7 @@ p {
     display: inline-block;
     margin-top: 20px;
     padding: 12px 24px;
-    background-color: #ffffff;
+    background-color: #dbdbdb;
     color: #2c3e50;
     text-decoration: none;
     font-size: 1.2rem;
@@ -55,7 +57,7 @@ p {
 
 .btn:hover {
     background-color: #2c3e50;
-    color: #ffffff;
+    color: #aaaaaa;
     transform: translateY(-3px);
     box-shadow: 0 6px 8px rgba(0,0,0,0.15);
 }
