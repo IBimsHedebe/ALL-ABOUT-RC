@@ -26,9 +26,9 @@
     text-align: center;
 }
 
-#slide1 {background-color: #2c3e50;}
-#slide2 {background-color: #e67e22;}
-#slide3 {background-color: #27ae60;}
+#Presentation-Slide {background-color: #2c3e50;}
+#Organizing-Slide {background-color: #e67e22;}
+#Credits-and-Quells-Slide {background-color: #27ae60;}
 
 h1 {
     font-size: 3rem;
@@ -37,4 +37,25 @@ h1 {
 
 p {
     font-size: 1.5rem;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #ffffff;
+    color: #2c3e50;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.btn:hover {
+    background-color: #2c3e50;
+    color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 8px rgba(0,0,0,0.15);
 }
