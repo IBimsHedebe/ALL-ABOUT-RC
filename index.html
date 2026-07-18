@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -90,7 +90,30 @@
                     </div>
                 </div>
 
-                <button id="add-update-btn">Neues Update erstellen</button>
+                <button id="openModalBtn">Neues Update erstellen</button>
+
+                <dialog id="updateDialog">
+                    <form id="updateForm" method="dialog">
+                        <h3>Neues Update</h3>
+                        
+                        <lable>Datum:</lable>
+                        <input type="date" id="inputDate" required>
+
+                        <label>Titel:</label>
+                        <input type="text" id="inputTitle" required>
+
+                        <label>Inhalt:</label>
+                        <textarea id="inputContent" placeholder="Was ist neu? ..." rows="4" required></textarea>
+
+                        <div class="modal-buttons">
+                            <button type="button" id="closeModalBtn">Abbrechen</button>
+                            <button type="submit" id="saveUpdateBtn">Hinzufügen</button>
+                        </div>
+
+                    </form>
+
+                </dialog>
+
 
             </section>
                 
