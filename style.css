@@ -54,7 +54,19 @@ nav ul li a{
     text-decoration: none;
 }
 
-.timeline {
+
+.slider-container {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: thin;
+}
+
+.slider-item {
+    display: flex;
+    align-items: start;
+    width: max-content;
     background: var(--white);
     padding: 30px;
     margin: 15px;
@@ -63,9 +75,13 @@ nav ul li a{
     border-top: 5px solid var(--primary-color);
 }
 
-.timeline-item {
-    max-width: 250px;
-    margin-bottom: 20px;
+.item {
+    white-space: normal; /* Allow text to wrap */
+    flex-shrink: 0;
+    max-width: 300px;
+    align-items: start;
+    justify-content: start;
+    margin: 5px;
 }
 
 .date {
