@@ -63,7 +63,7 @@ nav ul li a{
     scrollbar-width: thin;
 }
 
-.slider-item {
+.slider-track {
     display: flex;
     align-items: start;
     width: max-content;
@@ -75,13 +75,27 @@ nav ul li a{
     border-top: 5px solid var(--primary-color);
 }
 
-.item {
+.slider-item {
     white-space: normal; /* Allow text to wrap */
     flex-shrink: 0;
     max-width: 300px;
     align-items: start;
     justify-content: start;
     margin: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0045b3;
 }
 
 .date {
